@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Sneha ❤️</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#ffd6e7,#fff0f6,#ffe1ef);
+    color:#5b2941;
+    overflow-x:hidden;
+}
+
+/* GATE */
+#gate{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:25px;
+}
+
+.gate-box{
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(12px);
+    padding:40px 25px;
+    border-radius:28px;
+    box-shadow:0 10px 40px rgba(180,70,120,.2);
+    width:100%;
+    max-width:420px;
+}
+
+.gate-box h1{
+    font-size:30px;
+    margin-bottom:12px;
+}
+
+.gate-box p{
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:28px;
+}
+
+.open-btn{
+    border:none;
+    background:linear-gradient(135deg,#ff4f91,#ff78aa);
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    padding:15px 38px;
+    border-radius:50px;
+    cursor:pointer;
+    box-shadow:0 7px 20px rgba(255,70,140,.35);
+}
+
+.open-btn:active{
+    transform:scale(.95);
+}
+
+/* MAIN */
+#main{
+    display:none;
+    padding:30px 18px 60px;
+}
+
+.title{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    font-size:15px;
+    line-height:1.7;
+    margin-bottom:35px;
+}
+
+/* MEMORY CARD */
+.card{
+    max-width:500px;
+    margin:0 auto 35px;
+    background:rgba(255,255,255,.8);
+    padding:20px;
+    border-radius:25px;
+    box-shadow:0 8px 30px rgba(150,50,100,.15);
+}
+
+.card img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:18px;
+    object-fit:cover;
+}
+
+.caption{
+    text-align:center;
+    margin-top:15px;
+    font-size:16px;
+    line-height:1.6;
+}
+
+/* THOUGHT */
+.thought{
+    max-width:500px;
+    margin:35px auto;
+    padding:28px 22px;
+    text-align:center;
+    background:rgba(255,255,255,.72);
+    border-radius:25px;
+    line-height:1.8;
+    box-shadow:0 8px 25px rgba(150,50,100,.12);
+}
+
+.thought h2{
+    margin-bottom:12px;
+}
+
+/* MUSIC */
+.music{
+    text-align:center;
+    margin:35px auto;
+    max-width:500px;
+}
+
+.music button{
+    border:none;
+    padding:13px 25px;
+    border-radius:30px;
+    background:#ff5c9a;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+/* FALLING FLOWERS */
+.flower{
+    position:fixed;
+    top:-30px;
+    z-index:999;
+    pointer-events:none;
+    animation:fall linear forwards;
+}
+
+@keyframes fall{
+    to{
+        transform:translateY(110vh) rotate(360deg);
+        opacity:.2;
+    }
+}
+
+/* FINAL */
+.final{
+    text-align:center;
+    max-width:500px;
+    margin:50px auto 0;
+    padding:30px 20px;
+}
+
+.final h2{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.final p{
+    line-height:1.8;
+}
+</style>
+</head>
+
+<body>
+
+<!-- FIRST SCREEN -->
+<section id="gate">
+
+    <div class="gate-box">
+
+        <h1>Hlw Madam 🌸</h1>
+
+        <p>
+            Ek chhoti si cheez hai tumhare liye...<br>
+            Don't judge me pehle hi 😭😂
+        </p>
+
+        <button class="open-btn" onclick="openMemories()">
+            Open 💗
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- MAIN CONTENT -->
+<section id="main">
+
+    <h1 class="title">For Sneha 🌷</h1>
+
+    <p class="subtitle">
+        Kuch log life mein accidentally aa jaate hain,<br>
+        aur phir pata hi nahi chalta ki kab<br>
+        unki memories important ho gayi. ❤️
+    </p>
+
+
+    <!-- PHOTO 1 -->
+    <div class="card">
+        <img src="photo1.jpg" alt="Sneha memory 1">
+        <p class="caption">
+            Ye smile... honestly, thodi dangerous hai. 😂❤️
+        </p>
+    </div>
+
+
+    <div class="thought">
+        <h2>One Year... ✨</h2>
+
+        <p>
+            Socha tha bas normal si friendship hogi,
+            but somehow ek saal tak baatein hoti rahi.
+            Random talks, bakwaas, hasi-mazaak...
+            aur beech-beech mein woh moments jo yaad reh jaate hain.
+        </p>
+    </div>
+
+
+    <!-- PHOTO 2 -->
+    <div class="card">
+        <img src="photo2.jpg" alt="Sneha memory 2">
+        <p class="caption">
+            Is photo pe zyada kuch nahi bolunga...<br>
+            warna madam overconfident ho jayengi. 😭😂
+        </p>
+    </div>
+
+
+    <div class="thought">
+        <h2>That Staircase Moment 👀</h2>
+
+        <p>
+            Class ke time woh stairs par eye contact...
+            Bas 2 second ka moment tha,
+            lekin pata nahi kyun woh moment yaad reh gaya. 👀
+        </p>
+    </div>
+
+
+    <!-- PHOTO 3 -->
+    <div class="card">
+        <img src="photo3.jpg" alt="Sneha memory 3">
+        <p class="caption">
+            Madam ka ek aur iconic look. 🌸
+        </p>
+    </div>
+
+
+    <div class="thought">
+
+        <h2>And That Call... 📞😂</h2>
+
+        <p>
+            Tumse overconfident hoke call pe baat karne gaya...
+            aur 2 minute baad mere paas topic hi khatam. 😭
+            <br><br>
+            Confidence: 100%<br>
+            Topics: 0%
+        </p>
+
+    </div>
+
+
+    <!-- PHOTO 4 -->
+    <div class="card">
+        <img src="photo4.jpg" alt="Sneha memory 4">
+        <p class="caption">
+            Memories ka collection thoda zyada cute ho gaya. 🫠❤️
+        </p>
+    </div>
+
+
+    <div class="thought">
+
+        <h2>That "Date" 😂🥟</h2>
+
+        <p>
+            Aur haan... woh momos wali outing bhi yaad hai. 😂
+            <br><br>
+            Technically date nahi thi...
+            but vibe thodi date wali thi. 👀
+            <br><br>
+            Bas ek complaint hai —
+            <b>momos achhe bhi nahi the.</b> 😭😂
+        </p>
+
+    </div>
+
+
+    <!-- PHOTO 5 -->
+    <div class="card">
+        <img src="photo5.jpg" alt="Sneha memory 5">
+        <p class="caption">
+            Okay madam, ab itni photos bhi mat dekhna...
+            attitude badh jayega. 😂❤️
+        </p>
+    </div>
+
+
+    <!-- MUSIC -->
+    <div class="music">
+
+        <button onclick="playMusic()">
+            🎵 Play our vibe
+        </button>
+
+        <audio id="song" loop>
+            <source src="Pehli_Nazar.m4a" type="audio/mp4">
+        </audio>
+
+    </div>
+
+
+    <!-- FINAL -->
+    <div class="final">
+
+        <h2>Ek baat kahu? 🌸</h2>
+
+        <p>
+            I don't know future mein kya hoga,
+            but jo bhi hai, it's genuinely special.
+            <br><br>
+            Maybe we're just good friends...
+            maybe there's something more that neither of us
+            has properly said yet. 👀
+            <br><br>
+            But one thing is sure —
+            <b>I'm really glad I met you, Sneha. ❤️</b>
+        </p>
+
+        <br>
+
+        <p>
+            Happy Birthday, Madam! 🎂🌷
+        </p>
+
+    </div>
+
+</section>
+
+
+<script>
+
+function openMemories(){
+
+    document.getElementById("gate").style.display="none";
+
+    document.getElementById("main").style.display="block";
+
+    // flowers
+    for(let i=0;i<35;i++){
+        setTimeout(createFlower,i*100);
+    }
+
+    // automatically move to content
+    setTimeout(function(){
+        document.getElementById("main").scrollIntoView({
+            behavior:"smooth"
+        });
+    },100);
+
+}
+
+
+function createFlower(){
+
+    const flower=document.createElement("div");
+
+    flower.className="flower";
+
+    const flowers=["🌸","🌷","💮","🌺","💕"];
+
+    flower.innerHTML=
+        flowers[Math.floor(Math.random()*flowers.length)];
+
+    flower.style.left=Math.random()*100+"vw";
+
+    flower.style.fontSize=(15+Math.random()*18)+"px";
+
+    flower.style.animationDuration=
+        (4+Math.random()*5)+"s";
+
+    document.body.appendChild(flower);
+
+    setTimeout(()=>{
+        flower.remove();
+    },9000);
+
+}
+
+
+function playMusic(){
+
+    const song=document.getElementById("song");
+
+    if(song.paused){
+        song.play();
+    }
+    else{
+        song.pause();
+    }
+
+}
+
+</script>
+
+</body>
+  </html>
